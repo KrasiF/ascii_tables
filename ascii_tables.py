@@ -1,8 +1,5 @@
 import copy
 
-def aaa():
-    print("aaa")
-
 class ASCIITable:
 
     WIDTH_LIMIT_DEFAULT = 8
