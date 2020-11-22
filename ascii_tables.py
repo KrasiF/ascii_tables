@@ -114,9 +114,7 @@ class ASCIITable:
                         added_lines += 1
             return to_prepare_content
 
-        to_prepare_content = listify_all_items(self._content)
-        print(to_prepare_content)
-        
+        to_prepare_content = listify_all_items(self._content)        
         to_prepare_content = split_all_items_by_max_len(to_prepare_content, self._width_limiter)        
         
         return to_prepare_content
